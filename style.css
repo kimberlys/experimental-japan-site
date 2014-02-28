@@ -1,0 +1,21 @@
+
+
+html, body {
+   height: 100%;
+   margin: 0
+}
+
+section {
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+section.full {
+	height: 100%;
+}
+
+#home-bg {
+	background-image: url(images/home-bg.png);
+}
