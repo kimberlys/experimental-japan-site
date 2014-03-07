@@ -75,6 +75,27 @@ img.leftmid {
 	z-index: 5;
 }
 
+img.white-b {
+	position:absolute;
+	left: 33%;
+	top: 55%;
+	z-index: 5;
+}
+
+img.right-o {
+	position:absolute;
+	left: 57%;
+	top: 26%;
+	z-index: 3;
+}
+
+img.right-l {
+	position:absolute;
+	left: 55%;
+	top: 30%;
+	z-index: 4;
+}
+
 @media all and (max-device-width: 480px) {
 
   img.girl {
