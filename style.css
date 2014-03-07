@@ -22,5 +22,68 @@ section.full {
 
 #neutral {
 	background-image: url(images/neutral.png);
+	z-index: -100;
 }
+
+img.girl {
+	position:absolute;
+	display: block;
+	right: 40%;
+	top: 25%;
+	z-index: 100;
+}
+
+img.mid-l {
+	position:absolute;
+	left: 32%; 
+	top: 0%;
+	z-index: 10;
+}
+
+img.mid-o {
+	position:absolute;
+	left: 37%; 
+	top: 0%;
+	z-index: 9;
+}
+
+img.purple-r {
+	position:absolute;
+	left: 58%;
+	top: 59%;
+	z-index: 8;
+}
+
+img.purple-l {
+	position:absolute;
+	display: block;
+	margin: 0 auto;
+	z-index: 7;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    html, body {
+    	height: 100%;
+    	margin: 0
+    }
+
+    #div {
+    	background-position: center center;
+    	background-size: cover;
+    	background-attachment: fixed;
+    	position: relative;
+    }
+
+    #div.full {
+    	height: 100%;
+    }
+
+    #mobilebg {
+    	background-image: url(images/mobilebg.png);
+    	z-index: -200;
+    }
+}
+
+
 
