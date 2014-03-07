@@ -16,6 +16,11 @@ section.full {
 	height: 100%;
 }
 
-#home-bg {
-	background-image: url(images/home-bg.png);
+#endbg {
+	background-image: url(images/endbg.png);
 }
+
+#neutral {
+	background-image: url(images/neutral.png);
+}
+
